@@ -1,6 +1,8 @@
 # --- compute/variables.tf ---
 
-variable "aws_region" {}
+variable "aws_region" {
+  default = "ap-southeast-1"
+}
 variable "instance_count" {
   default = 1
 }
